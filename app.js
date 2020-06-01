@@ -31,8 +31,6 @@ Promise.all(pokemonPromises)
     .then(insertPokemonsIntoPage)
     .then(handleSelectedPokemon)
 
-//mine stuff
-
 function handleSelectedPokemon() {
 
     const pokemonCards = document.querySelectorAll(".card");
